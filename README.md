@@ -1,5 +1,5 @@
 ## Welcome to my Github.io: BigData Platform (In progress)
-This is the repository for the most interesting project that I have ever built :grin:
+This is the repository for the most interesting project (for me) that I have ever built :grin:
 
 The motivation for this project: I love pets (undoubtedly inspired by the dogs that I raised and loved as my closest friends). So I hope I can create a platform that help connect pet lovers, and enable them to find and adopt pets with a few clicks. And I want to go further: With this platform, people can help protect wild pets by reporting about mistreated pets, or abandoned pets that don't any place to live. 
 
