@@ -10,7 +10,9 @@ var petSavingRouter = require('./routes/pet_saving');
 var app = express();
 
 var mongoose = require('mongoose');
-var mongoDB = 'mongodb+srv://lehai:Iambawmim260996!@sandbox.cohcx.mongodb.net/bigdata-platform-database?retryWrites=true&w=majority';
+
+//this is my credential to access MongoDB, so I will hide it
+var mongoDB = '***************************************';
 mongoose.connect(mongoDB, { useNewUrlParser: true , useUnifiedTopology: true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error'));
