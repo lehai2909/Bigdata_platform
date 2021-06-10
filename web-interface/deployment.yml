@@ -1,0 +1,25 @@
+# This file configures the hello-world app which serves public web traffic.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bdp-interface
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bdp
+  template:
+    metadata:
+      labels:
+        app: bdp
+    spec:
+      containers:
+      - name: bdp-interface
+        # Replace $GCLOUD_PROJECT with your project ID
+        image: gcr.io/kubernetes-web-app-310309/bdp-interface:latest
+        # This app listens on port 8080 for web traffic by default.
+        ports:
+        - containerPort: 3000
+        env:
+          - name: PORT
+            value: "3000"

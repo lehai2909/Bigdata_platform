@@ -2,4 +2,37 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+
+
+  form
+    input(type="search", name="q", placeholder="Your searching area...")
+    input(type="submit",value="Go!")
+  hr
+  div(id='map')
+    script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJsHiFHIGbrBCPLi97FletJlaZSKKvUIo&callback=initMap&libraries=&v=weekly")
+  
+  main 
+    article 
+      h2 Pet List 
+      ol
+        each instance in pet_instances
+          li
+            main
+              article 
+                ul
+                  li  Name: #{instance.name} 
+                  li  Location: #{instance.location}
+                  li  Status: #{instance.status}
+                button(id=instance.name) Show picture
+
+              aside(id='picLocation-'+instance.name)
+                
+            hr
+
+
+    
+  script(src='/javascripts/index-pet-list.js')
+
+
+  footer 
+    p My copyright
