@@ -7,6 +7,14 @@ These functions will be realized based on the data provided by user. My data-dri
 
 Below is the diagream for my platform (I created by lucidchart.com)
 ![diagram](./diagram/platform-diagram.png)
-Currently, I'm working on the interface for the web. I use JavaScript (Nodejs) to handle my server
+
+
+
+### UI
+Currently, I'm working on the interface for the web. I use JavaScript (Express/Nodejs) to handle requests to my server
+
+A brief looking of the web:
+
+![gif](web-interface/bigdata-platform-interface/public/images/Animation.gif)
 
 *(Still updating...)*
