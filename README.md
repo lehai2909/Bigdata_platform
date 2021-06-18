@@ -5,7 +5,7 @@ The motivation for this project: I love pets (undoubtedly inspired by the dogs t
 
 These functions will be realized based on the data provided by user. My data-driven platform will run Machine Learning algorithms (clustering, recommendation system,....) on distributed platforms like Hadoop or Spark. It will also provide users with statistics and vizualizations about pet situation, pet distribution, or areas with high number of endangered cases
 
-Below is the diagream for my platform (I created by lucidchart.com)
+Below is the diagream for my platform (I created with lucidchart.com)
 ![diagram](./diagram/platform-diagram.png)
 
 
