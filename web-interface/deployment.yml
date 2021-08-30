@@ -17,6 +17,7 @@ spec:
       - name: bdp-interface
         # Replace $GCLOUD_PROJECT with your project ID
         image: gcr.io/kubernetes-web-app-310309/bdp-interface:latest
+        imagePullPolicy: Always
         # This app listens on port 8080 for web traffic by default.
         ports:
         - containerPort: 3000
